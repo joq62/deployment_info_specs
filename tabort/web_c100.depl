@@ -1,0 +1,5 @@
+{deployment_id,"web_c100"}.
+{deployment_vsn,"0.1.0"}.
+{appl_id,"web_c100"}.
+{appl_vsn,"0.1.0"}.
+{nodes,['controller@c100']}.
