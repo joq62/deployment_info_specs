@@ -25,12 +25,12 @@ check([])->
     io:format("Ok, no errors!! ~n");
 check([L|T])->
     io:format("Checking ~p~n",[L]),
-    true=proplists:is_defined(apiVersion,L),
+    true=proplists:is_defined(api_version,L),
     true=proplists:is_defined(kind,L),
     true=proplists:is_defined(metadata,L),
     true=proplists:is_defined(spec,L),
     true=proplists:is_defined(num_instances,L),
-    true=proplists:is_defined(constraints,L),
+    true=proplists:is_defined(directive,L),
     check(T).
 
    

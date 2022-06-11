@@ -1,4 +1,4 @@
-{apiVersion, v1}.
+{api_version, "1.0.0"}.
 {kind, deployment}.
 {metadata,[{name,"controller_local"},{vsn,"0.1.0"}]}.
 {spec,[{appl_specs,[#{name=>"common",
@@ -10,7 +10,7 @@
 		    #{name=>"sd",
 		      vsn=>"0.1.0"}]}]}.
 {num_instances,3}.
-{constraints,[{affinity,[this_host]}]}.
+{directive,[{all_or_nothing,false},{same_host,true},{specifict_host,[]}]}.
 		    
 		    	      
 		    
