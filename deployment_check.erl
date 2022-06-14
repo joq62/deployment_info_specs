@@ -25,8 +25,8 @@ check([])->
     io:format("Ok, no errors!! ~n");
 check([L|T])->
     io:format("Checking ~p~n",[L]),
-    true=proplists:is_defined(api_version,L),
-    true=proplists:is_defined(kind,L),
+%    true=proplists:is_defined(api_version,L),
+ %   true=proplists:is_defined(kind,L),
     true=proplists:is_defined(name,L),
     true=proplists:is_defined(vsn,L),
     true=proplists:is_defined(appl_specs,L),

@@ -1,5 +1,3 @@
-{api_version, "1.0.0"}.
-{kind, deployment}.
 {name,"controller_local"}.
 {vsn,"0.1.0"}.
 {appl_specs,[{"common","0.1.0"},
