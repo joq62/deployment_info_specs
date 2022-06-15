@@ -1,5 +1,0 @@
-{deployment_id,"conbee"}.
-{deployment_vsn,"1.0.0"}.
-{appl_id,"conbee_app"}.
-{appl_vsn,"1.0.0"}.
-{nodes,['controller@c202']}.
