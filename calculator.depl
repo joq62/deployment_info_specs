@@ -4,7 +4,7 @@
 	     {"test_add","0.1.0"},
 	     {"test_divi","0.1.0"},
 	     {"test_sub","0.1.0"}]}.
-{num_instances,3}.
+{num_instances,1}.
 {directive,[{all_or_nothing,false},{same_host,false},{specifict_host,[]}]}.
 		    
 		    	      
