@@ -1,0 +1,11 @@
+{name,"solis_test_c100"}.
+{vsn,"0.1.0"}.
+{appl_specs,[{"solis","0.1.0"},
+             {"solis_web","0.1.0"]}.
+{num_instances,1}.
+{directive,[{all_or_nothing,false},{same_host,false},{specifict_host,["c100"]}]}.
+		    
+		    	      
+		    
+
+		  
